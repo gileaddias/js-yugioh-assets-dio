@@ -35,6 +35,7 @@
 .container__left {
     width: 35%;
     min-width: 300px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -84,10 +85,11 @@
     padding: 0.3rem;
 }
 
-.card-versus__container {
-    margin-top: 5rem;
+.card-versus__container {    
     display: flex;
     flex-direction: column;
+    justify-items: center;
+    align-content: center;
     padding-top: 0.1rem;
     height: 300px;
 }
@@ -119,6 +121,22 @@
     
     height: 11.2rem;
     width: 8rem;
-    /*border: 1px solid #fff;*/
+    border: 1px solid #fff;
     border-radius: 8px;
+}
+
+.card-infield > img{
+    border: none;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+.debug {
+    border: 1px solid red;
 }
