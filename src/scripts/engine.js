@@ -206,6 +206,10 @@ function init(){
 
     drawCards(5, state.playerSides.player1);
     drawCards(5, state.playerSides.computer);
+
+    const bgm = document.getElementById("bgm");
+    bgm.play(bgm);
+
 }
     
 init();
