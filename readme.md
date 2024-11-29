@@ -1,3 +1,18 @@
+# Desafio de projeto - DIO
+
+## Yu-Gi-Oh | Jo-ken-po Edition
+
+
+Criação do jogo de Jogo de cartas Jo-Ken-po, do Yu-Gi-Oh
+
+
+
+Aplicando conceitos aprendidos com Javascripts e CSS
+
+
+
+https://github.com/gileaddias/js-yugioh-assets-dio.git
+
 # Yu-Gi-Oh | Jo-ken-po Edition
 
 Jogo de jokenpo que criei para explicar conceitos de lógica de programação aplicados a jogos
